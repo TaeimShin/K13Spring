@@ -10,8 +10,15 @@
 </head>
 <body>
 <div class="container">
+	<h2>@RequestMapping 어노테이션</h2>
+	<h3>@ModelAttrivute어노테이션을 사용하여 파라미터 일괄전송</h3>
 
-
+	<ul>
+		<li>이름 : ${si.name }</li>
+		<li>나이 : ${si.age }</li>
+		<li>학년 : ${si.gradeNum }</li>
+		<li>학반 : ${si.classNum }</li>
+	</ul>
 </div>
 </body>
 </html>

@@ -71,6 +71,9 @@ public class RequestMappingController {
 		 */
 		return mv;
 	}
+	/*
+	 @modelAttribute어노테이션
+	 */
 	
 	@RequestMapping("/requestMapping/modelAttribute")
 	public String studentInfo(
